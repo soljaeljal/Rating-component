@@ -8,17 +8,13 @@ let selectedRating = document.querySelector('.selected-rating');
 
 let number = 0;
 
-// rating.forEach(e => {
-//     e.addEventListener('click', function() {
-//         number = e.id;
-//         e.classList.add('rated');
-//         e.style.backgroundColor = 'orange';
-//         e.style.color = 'white';
-//         console.log(currentTarget);
-//     })
-// });
+rating.forEach(e => {
+    e.addEventListener('click', function () {
+        number = e.id;
+    })
+});
 
-submit.addEventListener('click', function() {
+submit.addEventListener('click', function () {
     if (number !== 0) {
         container.style.display = 'none';
         afterSubmit.style.display = 'flex';
