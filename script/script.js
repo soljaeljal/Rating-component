@@ -1,7 +1,7 @@
 'use strict';
 const ratingWrapper = document.querySelector('.rating-wrapper');
 const rating = document.querySelectorAll('.rating');
-const submit = document.querySelector('button');
+const submit = document.querySelector('.submit');
 const container = document.querySelector('.container');
 const afterSubmit = document.querySelector('.after-submit-container');
 let selectedRating = document.querySelector('.selected-rating');
